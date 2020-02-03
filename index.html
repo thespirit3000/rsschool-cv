@@ -40,16 +40,17 @@
                     <h2 class="section__title">Skills</h2>
                     <ul class="skills-list">
                        <li class="skills__list">Python programming skills;</li>
-                       <li class="skills__list">JS starting programming skills;</li>
+                       <li class="skills__list">JS programming skills;</li>
+                       <li class="skills__list">work with DOM, DOM events;</li>
                        <li class="skills__list">HTML/CSS;</li>
-                       <li class="skills__list">LESS/SASS starting skills;</li>
+                       <li class="skills__list">LESS/SASS skills;</li>
                        <li class="skills__list">Git;</li>
                        <li class="skills__list">Photoshop, gimp, krita;</li>
                        <li class="skills__list">Figma/ PSDetch;</li>
                        <li class="skills__list">VIM/EMACS as text editors;</li>
                        <li class="skills__list">VScode/Atom;</li>
                        <li class="skills__list">Fedora linux as workstation (i3 as DE);</li>
-                       <li class="skills__list">Good Googling skills );</li>
+                       <li class="skills__list">Googling skills;</li>
                     </ul>
                 </section>
                 <section class="section examples">
@@ -57,16 +58,11 @@
                     <figure>
                         <pre>
                           <code>
-        def checkio(data):
-            result = []
-            if 0 &lt len(data) &lt 1000:
-                for el in data:
-                    if data.count(el) > 1:
-                        result.append(el)
-                print('checkio('+str(data)+') == '+str(result))
-            else:
-                print('некоректное кол-во элементов')
-            return result
+                            function findDup( arr ){
+                              let element = arr.shift();
+                                if (arr.includes(element) === true) {return element}
+                              return findDup(arr);
+                            }
                           </code>
                         </pre>
                       </figure>
@@ -76,7 +72,8 @@
                    <ul class="experience-list">
                         <li class="experience__item">coding in course at <a href="https://pythontutor.ru/">pythontutor.ru</a>;</li>
                         <li class="experience__item">practice at <a href="https://py.checkio.org/user/thespirit3000/">checkio.org</a>;</li>
-                        <li class="experience__item">some practice with HTML/CSS layout;</li>
+                        <li class="experience__item">practice with HTML/CSS layout;</li>
+                        <li class="experience__item">RS 2019 Q3 (stage 2);</li>
                    </ul>
                </section>
                <section class="section education">
@@ -93,6 +90,9 @@
                        </li>
                        <li class="education-list__item">
                         learning programming, Photoshop, HTML/CSS by youtube lessons and courses;
+                       </li>
+                       <li class="education-list__item">
+                         RSS 2019 Q3 (stage 2) course;
                        </li>
                    </ul>
                </section>
