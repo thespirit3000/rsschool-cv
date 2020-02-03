@@ -30,16 +30,15 @@ My current work requires regular learning new technologies and equipments and I 
 
 ### Code examples:
 
-``` js
+``` javascript
 function findDup( arr ){
   let element = arr.shift();
-    if (arr.includes(element) === true) {return element
-    }
+    if (arr.includes(element) === true) {return element}
   return findDup(arr);
 }
 ```
 
-``` js
+``` javascript
 function isTriangle(a,b,c)
 {
    return (a+b > c & a+c>b & c+b>a) === 1;
@@ -50,7 +49,7 @@ function isTriangle(a,b,c)
 
 - coding in course at [pythontutor](https://pythontutor.ru/);
 - practice at [checkio.org](https://py.checkio.org/user/thespirit3000/);
-- some practice whith HTML/CSS layout;
+- some practice HTML/CSS layout;
 - RS 2019 Q3 (stage 2);
 
 ### Education
