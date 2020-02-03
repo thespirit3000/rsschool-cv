@@ -17,6 +17,7 @@ My current work requires regular learning new technologies and equipments and I 
 
 - Python programming skills;
 - JS programming skills;
+- work with DOM;
 - HTML/CSS;
 - LESS/SASS skills;
 - Git;
@@ -50,6 +51,7 @@ function isTriangle(a,b,c)
 - coding in course at [pythontutor](https://pythontutor.ru/);
 - practice at [checkio.org](https://py.checkio.org/user/thespirit3000/);
 - some practice whith HTML/CSS layout;
+- RS 2019 Q3 (stage 2);
 
 ### Education
 
