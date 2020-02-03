@@ -29,44 +29,20 @@ My current work requires regular learning new technologies and equipments and I 
 
 ### Code examples:
 
-``` python
-def checkio(data):
-    result = []
-    if 0<len(data)<1000:
-        for el in data:
-            if data.count(el) > 1:
-                result.append(el)
-        print('checkio('+str(data)+') == '+str(result))
-    else:
-        print('некоректное кол-во элементов')
-    return result
+``` js
+function findDup( arr ){
+  let element = arr.shift();
+    if (arr.includes(element) === true) {return element
+    }
+  return findDup(arr);
+}
 ```
 
-``` python
-def long_repeat(line):
-    """
-        length the longest substring that consists of the same char
-    """
-    if len(line) == 0:
-        return 0
-    else:
-        list = []
-        i = 0
-        index_list = 0
-        list.append(line[0])
-        max = 0
-        for i in range(1, len(line)):
-            if line[i] == line[i-1]:
-                list[index_list] += line[i]
-            else:
-                index_list += 1
-                list.append(line[i])
-        for i in list:
-            if len(i) > max:
-                max = len(i)
-        print(list, max)
-    return max
-
+``` js
+function isTriangle(a,b,c)
+{
+   return (a+b > c & a+c>b & c+b>a) === 1;
+}
 ```
 
 ### Experience:
